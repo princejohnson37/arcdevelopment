@@ -1,9 +1,11 @@
 import Header from './ui/Header';
+import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
+
 function App() {
   return (
-    <div>
+    <ThemeProvider>
       <Header />
-    </div>
+    </ThemeProvider>
   );
 }
 
