@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 
 function App() {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <Header />
     </ThemeProvider>
   );
